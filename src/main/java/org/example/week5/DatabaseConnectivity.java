@@ -10,9 +10,9 @@ public class DatabaseConnectivity {
     public Connection getConnection()
 
     {
-        String databaseName="SAMPLE";
+        String databaseName="java";
         String databaseUser="root";
-        String databasePassword="Hansen21!";
+        String databasePassword="mypassword";
         String url="jdbc:mysql://127.0.0.1:3306/" + databaseName;
 
         try{
